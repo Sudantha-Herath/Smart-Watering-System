@@ -1,0 +1,37 @@
+name: smart_watering_system_app
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  firebase_core: ^2.20.0
+  firebase_database: ^10.1.0
+  provider: ^6.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.14.2  # Ensure this is installed correctly
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Adding assets section for the icon
+  assets:
+    - assets/app_icon.png
+    - assets/images/plantImage.png
+
+# Correctly configuring the launcher icon settings
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/plantImage.png"  # Make sure the image path is correct

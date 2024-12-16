@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "775322278015",
+    "firebase_url": "https://smart-watering-system-8de5d-default-rtdb.firebaseio.com",
+    "project_id": "smart-watering-system-8de5d",
+    "storage_bucket": "smart-watering-system-8de5d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:775322278015:android:b1b922394260b26099c74a",
+        "android_client_info": {
+          "package_name": "com.example.smart_watering_system_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAY17acNd6QyBzDa_wPMW-i63rdlB2jVbA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
